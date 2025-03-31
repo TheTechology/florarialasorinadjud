@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Florăria la Sorin - Adjud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #fef8f5;
+      color: #4a2c2a;
+    }
+    header {
+      background: url('https://via.placeholder.com/1200x400?text=Floraria+la+Sorin') center/cover no-repeat;
+      color: white;
+      padding: 120px 20px;
+      text-align: center;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.4em;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services, .contact, .reviews, .facebook-feed {
+      background: #ffffff;
+      margin-top: 30px;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      color: #b30047;
+    }
+    ul li {
+      padding: 8px 0;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 10px 0;
+      justify-content: center;
+    }
+    .gallery a {
+      width: 300px;
+      display: block;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .review {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #f3d3da;
+      padding-bottom: 10px;
+    }
+    .review strong {
+      color: #b30047;
+    }
+    .contact-info {
+      font-size: 1.1em;
+    }
+    footer {
+      background-color: #b30047;
+      color: white;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.95em;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(145deg, #d12c6a, #a7003d);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Florăria la Sorin</h1>
+    <p>Flori cu suflet pentru momentele care contează</p>
+  </header>
+
+  <section class="intro">
+    <h2>Despre noi</h2>
+    <p>Cu o tradiție de peste 20 de ani în Adjud, Florăria la Sorin este locul unde pasiunea pentru flori se îmbină cu rafinamentul și creativitatea. Fie că este vorba de buchete elegante, aranjamente tematice sau servicii florale complete pentru evenimente, suntem aici să aducem zâmbete prin flori.</p>
+  </section>
+
+  <section class="services">
+    <h2>Ce oferim</h2>
+    <ul>
+      <li>Buchete florale personalizate pentru orice ocazie</li>
+      <li>Aranjamente florale pentru nunți și botezuri</li>
+      <li>Coroane funerare și jerbe elegante</li>
+      <li>Livrare rapidă în Adjud și zonele apropiate</li>
+      <li>Consultanță pentru decor floral evenimente</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>Galerie foto</h2>
+    <div class="gallery">
+      <a href="https://via.placeholder.com/1200x800?text=Buchet+1" data-lightbox="galerie" data-title="Buchet elegant">
+        <img src="https://via.placeholder.com/300x200?text=Buchet+1" alt="Buchet 1">
+      </a>
+      <a href="https://via.placeholder.com/1200x800?text=Buchet+2" data-lightbox="galerie" data-title="Buchet romantic">
+        <img src="https://via.placeholder.com/300x200?text=Buchet+2" alt="Buchet 2">
+      </a>
+      <a href="https://via.placeholder.com/1200x800?text=Aranjament+3" data-lightbox="galerie" data-title="Aranjament floral de masă">
+        <img src="https://via.placeholder.com/300x200?text=Aranjament+3" alt="Aranjament 3">
+      </a>
+      <a href="https://via.placeholder.com/1200x800?text=Coroana+4" data-lightbox="galerie" data-title="Coroană funerară clasică">
+        <img src="https://via.placeholder.com/300x200?text=Coroana+4" alt="Coroană 4">
+      </a>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <h2>Ce spun clienții</h2>
+    <div class="review">
+      <p><strong>Maria P.</strong> – ⭐⭐⭐⭐⭐</p>
+      <p>„Cele mai frumoase flori din oraș! Personal amabil și mereu prompt. Recomand cu drag!”</p>
+    </div>
+    <div class="review">
+      <p><strong>Ionel D.</strong> – ⭐⭐⭐⭐⭐</p>
+      <p>„Am comandat o coroană funerară și a fost realizată cu foarte mult bun gust. Livrarea a fost punctuală.”</p>
+    </div>
+    <div class="review">
+      <p><strong>Elena G.</strong> – ⭐⭐⭐⭐⭐</p>
+      <p>„Profesioniști și atenți la detalii. Buchetul pentru aniversarea părinților mei a fost superb!”</p>
+    </div>
+  </section>
+
+  <section class="facebook-feed">
+    <h2>Urmărește-ne pe Facebook</h2>
+    <!-- Elfsight Facebook Feed | Untitled Facebook Feed -->
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-9483ea4b-8410-4beb-bd9e-385681b35bf9" data-elfsight-app-lazy></div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p><strong>Adresă:</strong> Strada Siret, nr. 2, Adjud, Vrancea</p>
+      <p><strong>Telefon:</strong> <a href="tel:+40753540909">0753 540 909</a></p>
+      <p><strong>Program:</strong> Zilnic, 09:00 - 17:00</p>
+      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/FlorarieAdjud" target="_blank">Florăria la Sorin - Facebook</a></p>
+    </div>
+    <a href="tel:+40753540909" class="btn">Sună acum pentru o comandă</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Florăria la Sorin | Toate drepturile rezervate</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+</body>
+</html>
